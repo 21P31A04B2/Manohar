@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Pomodoro App</h1>
+        <div class="timer">
+            <div id="time-display">00:00</div>
+            <div class="controls">
+                <button id="start" class="btn color1">Start</button>
+                <button id="stop" class="btn color2">Stop</button>
+                <button id="reset" class="btn color3">Reset</button>
+            </div>
+            <div class="modes">
+                <button id="short-break" class="btn primary">Short Break (5 min)</button>
+                <button id="long-break" class="btn color">Long Break (15 min)</button>
+            </div>
+        </div>
+    </div>
+
+    <audio id="alert-sound" src="alert.mp3" preload="auto"></audio>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
