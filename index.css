@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f4f8;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+h1 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.timer {
+    margin: 30px;
+}
+
+#time-display {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.controls,
+.modes {
+    margin-top: 20px;
+}
+
+.btn {
+    padding: 10px;
+    font-size: 1rem;
+    margin: 5px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+
+@media (max-width: 600px) {
+    #time-display {
+        font-size: 2.5rem;
+    }
+
+    .btn,
+    .mode-btn {
+        font-size: 0.9rem;
+        padding: 8px 16px;
+    }
+}
+
+.btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+}
+
+
+.color {
+    background-color: #ba25c2;
+    color: white;
+}
+
+.primary {
+    background-color: #2db3e3;
+    color: white;
+}
+
+.color1 {
+    background-color: #3ecf3c;
+    color: white;
+}
+
+.color2 {
+    background-color: #f04147;
+    color: white;
+}
+
+.color3 {
+    background-color: #bfb6b6;
+    color: white;
+}
